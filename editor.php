@@ -146,7 +146,7 @@ if (isset($selected) && ($selected !== '') && ($selected != '..') && ($selected 
 	echo "<input type=\"checkbox\" name=\"create\" value=\"yes\" /> new \n";
 	echo "<input type=\"checkbox\" name=\"rename\" value=\"yes\" /> rename \n";
 	echo "<input type=\"checkbox\" name=\"delete\" value=\"yes\" /> delete &nbsp\n";
-	echo "<input maxlength=\"128\" name=\"newfile\" value =\"".$selected."\" size=\"16\"/>\n";
+	echo "<input maxlength=\"128\" name=\"newfile\" class=\"list\" value =\"".$selected."\" size=\"16\"/>\n";
 	echo "&nbsp&nbsp<input name=\"submit\" type=\"submit\" class=\"submit\" style=\"width: 100px\" value=\"save\"/>";
 	echo "</form></TD>\n";
 }
