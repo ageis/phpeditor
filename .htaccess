@@ -1,0 +1,6 @@
+<Files editor.php>
+	AuthType Basic
+	AuthName "File Editor"
+	AuthUserFile .htpasswd
+	Require valid-user
+</Files>
