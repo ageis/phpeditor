@@ -1,4 +1,4 @@
-phpeditor 0.01 by ageis (kevin@ageispolis.net)
+phpeditor 0.01 by @ageis
 =========
 Simple text editing for files on a webserver.
 
@@ -11,6 +11,6 @@ It comes with an .htaccess and .htpasswd for securing access to the script with 
 Due to security concerns. I do not recommend working without them. Here are the default credentials:
 
 username: editor
-password: 9i7y5r
+password: 3d1t0r
 
-Use the htpasswd utility or this generator: http://www.htaccesstools.com/htpasswd-generator/ to create a replacement login.
+Use the htpasswd utility in the apache2-utils package to create a replacement login.
