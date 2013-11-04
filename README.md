@@ -1,4 +1,4 @@
-phpeditor 0.01 by @ageis
+phpeditor 0.01
 =========
 Simple text editing for files on a webserver.
 
