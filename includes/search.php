@@ -7,7 +7,7 @@ if (!file_exists(".dircache")) {
 }
 
 if ((time() - filemtime(".dircache")) >= 86400) {
-	 make_cache();
+	make_cache();
 }
 
 $term = strtolower(urldecode($_GET["term"]));
@@ -23,7 +23,7 @@ if ( empty($q) ) return;
 $items = explode("\n",rtrim(file_get_contents(".dircache")));
 
 foreach ($items as &$value) {
-    $value = str_rot47(($value));
+	$value = str_rot47(($value));
 }
 
 $_count = 0;
