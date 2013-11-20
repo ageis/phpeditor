@@ -1,0 +1,65 @@
+body {
+	font-family:'Droid Sans','Ubuntu',sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+}
+hr {
+	color: #fff;
+	background-color: #fff;
+	height: 1px;
+}
+input {
+	font: 1em "Droid Sans", "Ubuntu", "Trebuchet MS", Verdana, Helvetica, Arial, Sans-Serif;
+}
+.content {
+	margin-top:1em;
+	margin-left:1em;
+}
+a {
+	color: #00ff00;
+	text-decoration: none;
+}
+a:visited {
+	color: #ff00ff;
+}
+a:hover {
+	color: #00ffff;
+}
+.submit {
+	color: #FFFFFF;
+	background: #404040;
+	border: 2px solid #FFF;
+	font: 1em "Droid Sans", "Ubuntu", "Trebuchet MS", Verdana, Helvetica, Arial, Sans-Serif;
+}			
+.submit:hover, .submit:focus {		
+	background: #c0c0c0;
+	color: #000000;
+	border: 2px solid #000000;
+}
+.submit:active {
+	color: #000000;
+	background: #00ff00;
+	border: 2px solid #00ffff;
+}
+.list {
+	font: 10pt "Droid Sans", "Ubuntu", "Trebuchet MS", Verdana, Helvetica, Arial, Sans-Serif;
+	background: #c0c0c0;
+	color: #000;
+	border: 2px solid #000000;
+	padding: .5em;
+}
+.text { 
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	font-family: Droid Sans Mono, Courier New, monospace;
+	font-size: 11pt;
+	margin: .2em;
+}
+td {
+	vertical-align: top;
+}
+.ui-autocomplete-loading { 
+	background: black url('anim_16x16.gif') right center no-repeat;
+}
+
